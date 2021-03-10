@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: sans-serif;
+}
+
+.book-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 130px;
+  height: 330px;
+  margin: 0.5rem;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.book-item p {
+  margin: 0;
+}
+
+button {
+  width: max-content;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  background: #f76e0b;
+  color: white;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-item span {
+  font-size: 0.75rem;
+  color: #a6a6a6;
+  margin-top: 0.3rem;
+}
+
+.book-item img {
+  max-width: 128px;
+  margin-bottom: 0.7rem;
+}
